@@ -1,0 +1,171 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    text-transform: capitalize;
+}
+html
+{
+    font-size:15px;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar
+{
+    width:12px;
+}
+html::-webkit-scrollbar-thumb
+{
+    background: rgb(236, 35, 119);
+}
+section
+{
+    min-height: 100vh;
+    padding:15px 10%;
+    padding-top:120px;
+}
+header 
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:whitesmoke;
+    padding:15px;
+    box-shadow:0 3px 4px lightgray;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+header .logo img 
+{
+    height:85px;
+}
+header .navigate ul 
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+}
+header .navigate ul li 
+{
+    margin-left:45px;
+}
+header .navigate ul li a 
+{
+    font-size: 18px;
+    color:limegreen;
+    text-decoration:none;
+    font-weight: 500;
+}
+header .navigate ul li a:hover 
+{
+    color:rgb(236, 35, 119);
+}
+header #menu 
+{
+    font-size: 30px;
+    color:rgb(236, 35, 119);
+    cursor: pointer;
+    display: none;
+}
+
+/*----------------------Product---------------*/
+.title
+{
+    text-align:center;
+    font-size:45px;
+    padding:8px;
+    color:rgb(236, 35, 119);
+}
+.title span
+{
+    color:limegreen;
+}
+.cake-product .inner-cake-row
+{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   flex-wrap: wrap; 
+}
+.cake-product .inner-cake-col
+{
+    max-width: 1300px;
+    background:#fff;
+    height: 405px;
+    flex:1 1 300px;
+    padding:18px;
+    margin:23px;
+    border-radius:15px;
+    box-shadow:0 5px 9px rgb(236, 35, 119);
+    text-align: center;
+}
+.cake-product .inner-cake-col:hover 
+{
+    transition:.5s ease;
+    transform:translateY(-8px);
+}
+.cake-product .inner-cake-col img 
+{
+    height: 225px;
+    width:100%;
+    object-fit: cover;
+}
+.cake-product .inner-cake-col .cake-price p
+{
+  position:absolute;     
+  width: 41px;
+  height: auto;
+  margin-top:-17px;
+  margin-left: 175px;
+  padding:12px 2px;
+  text-align: center;
+  font-size: 18px;
+  border:none;
+  border-radius:75px;
+  background:;
+  color:#000;
+}
+.cake-star
+{
+    color: #FFDF00;
+    position:relative;
+    margin-top: 9px;
+}
+.cake-product .inner-cake-col h2
+{
+    padding: 8px 0;
+    color:darkblue;
+    font-size:24px;
+    letter-spacing:2px;
+}
+.cake-product .inner-cake-col h3 
+{
+    color:gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cake-product .inner-cake-col p 
+{
+    color:gray;
+    font-size: 15px;
+    font-weight: 500;
+    padding:8px 0;
+}
+
+.footer
+{
+    margin-top:75px;
+    padding:45px;
+    text-align:center;
+    background: gray;
+}
+.footer p 
+{
+    letter-spacing: 2px;
+    font-size: 23px;
+    color:#fff;
+}
